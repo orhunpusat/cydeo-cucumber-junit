@@ -34,4 +34,9 @@ public class Wiki_StepDefinitions {
         //verify actual title contains string (coming from feature file )
         Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
+
+    @Then("User sees Steve Jobs is in the main header")
+    public void userSeesSteveJobsIsInTheMainHeader() {
+
+    }
 }
