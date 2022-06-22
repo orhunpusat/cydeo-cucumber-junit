@@ -64,6 +64,7 @@
             <version>7.3.4</version>
             <scope>test</scope>
         </dependency>
+
         <!--If you want to get rid of SLF4J Failed to load message from the console -->
         <dependency>
             <groupId>org.slf4j</groupId>
